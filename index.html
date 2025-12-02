@@ -1,7 +1,65 @@
-git clone https://github.com/helmikhalil01-ux/GREEN-VISA.git
-cd GREEN-VISA
-# انسخ ملف index.html هنا (أو انسخ من فولدر الموقع عندك)
-# ثم:
-git add index.html
-git commit -m "Add index.html for GitHub Pages"
-git push origin main
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GREEN VISA - Explore the World</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;}
+body{line-height:1.6;background:#fff;color:#333;}
+a{text-decoration:none;color:inherit;}
+ul{list-style:none;}
+header{
+background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200')
+no-repeat center center/cover;color:#fff;text-align:center;padding:80px 20px;}
+header img{max-width:120px;margin-bottom:10px;}
+header h1{font-size:32px;margin-bottom:5px;}
+header p{font-size:18px;font-style:italic;}
+nav{background:#27ae60;}
+nav ul{display:flex;justify-content:center;flex-wrap:wrap;}
+nav li{margin:0 15px;}
+nav a{color:#fff;font-weight:bold;padding:15px 0;display:block;}
+nav a:hover{text-decoration:underline;}
+section{padding:60px 20px;max-width:1200px;margin:auto;}
+section h2{text-align:center;color:#2ecc71;margin-bottom:30px;font-size:28px;}
+#about{
+background:url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200')
+no-repeat center center/cover;color:#fff;padding:80px 20px;text-align:center;}
+#about p{background:rgba(0,0,0,0.5);display:inline-block;padding:20px;border-radius:10px;}
+.services{
+background:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200')
+no-repeat center center/cover;padding:60px 20px;color:#fff;border-radius:10px;}
+.services ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;padding:0;}
+.services li{
+background:rgba(0,0,0,0.5);padding:15px;border-radius:8px;display:flex;align-items:center;
+gap:10px;transition:transform .3s,background .3s,box-shadow .3s;}
+.services li:hover{transform:scale(1.08);background:rgba(46,204,113,0.7);box-shadow:0 8px 20px rgba(0,0,0,0.3);}
+.services li img{width:24px;height:16px;object-fit:cover;border-radius:2px;transition:transform .3s;}
+.services li:hover img{transform:scale(1.2);}
+.contact{background:#ecf9f1;text-align:center;padding:60px 20px;border-radius:10px;}
+.contact a{display:inline-block;margin:10px;background:#25D366;color:#fff;padding:15px 25px;border-radius:50px;font-weight:bold;transition:.2s;}
+.contact a:hover{background:#1ebe5d;}
+footer{background:#27ae60;color:#fff;text-align:center;padding:20px 0;margin-top:50px;}
+@media(max-width:768px){nav ul{flex-direction:column;}}
+</style>
+</head>
+<body>
+
+<header>
+<img src="logo.png" alt="GREEN VISA">
+<h1>GREEN VISA</h1>
+<p>EXPLORE THE WORLD</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="#about">نحن من</a></li>
+<li><a href="#services">خدمات التأشيرات</a></li>
+<li><a href="#contact">تواصل معنا</a></li>
+</ul>
+</nav>
+
+<section id="about">
+<h2>نحن من</h2>
+<p>
+شركة <strong>GREEN VISA</strong> متخصصة في استخراج التأشيرات ال
